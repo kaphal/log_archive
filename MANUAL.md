@@ -1,12 +1,12 @@
 # Manual
-This is manual for `log_archive.sh`
+This is the manual for `log_archive.sh`
 
 ## Making file executable
-After dowloading or copying script use command:
+After downloading or copying script use command:
 ```bash
 chmod u+x file_name.sh
 ```
-(replace `file_name` with proper name of file) to make file executable, then you can use file with command:
+(replace `file_name` with the proper name of file) to make file executable, then you can use file with command:
 
 ```bash
 sudo ./file_name.sh
@@ -18,10 +18,10 @@ sudo bash file_name.sh
 ```
 
 ### Warning
-If you use script without `sudo` scipt would not copy to .tar file files used by root.
+If you use the script without `sudo` script would not copy to .tar file files used by root.
 
-## making `log_archive.sh` useable without passwd
-to use `log_archive.sh` without password we will use `visudo`.
+## Making `log_archive.sh` useable without passwd
+to use `log_archive.sh` without a password we will use `visudo`.
 Use 
 ```bash
 sudo visudo
@@ -30,5 +30,5 @@ to open it. Next you go to end of the file and you write this:
 ```bash
 user_name ALL=(ALL) NOPASSWD: script_location
 ```
-(replace user_name and script_location)
+(replace user_name and script_location and replace it with your actual username and absolute path to the script)
 
