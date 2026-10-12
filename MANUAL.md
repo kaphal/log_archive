@@ -4,7 +4,7 @@ This is manual for `log_archive.sh`
 ## Making file executable
 After dowloading or copying script use command:
 ```bash
-chmod u+x file_name.sh```
+chmod u+x file_name.sh
 (replace `file_name` with proper name of file) to make file executable, then you can use file with command:
 ```bash
 sudo ./file_name.sh```
