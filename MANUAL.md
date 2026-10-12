@@ -26,4 +26,9 @@ Use
 ```bash
 sudo visudo
 ```
-to open it.
+to open it. Next you go to end of the file and you write this:
+```bash
+user_name ALL=(ALL) NOPASSWD: script_location
+```
+(replace user_name and script_location)
+
